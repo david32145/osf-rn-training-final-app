@@ -114,7 +114,7 @@ Conteúdo do email: `link do projeto no github`
 **GIF, screenshot ou video da funcionalidade aqui**
 
 ### 2. Adicionar o pacote Lint-staged
-- [ ] Concluído Total
+- [X] Concluído Total
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
