@@ -95,14 +95,14 @@ Conteúdo do email: `link do projeto no github`
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
-**GIF, screenshot ou video da funcionalidade aqui**
+[Explicação](https://drive.google.com/file/d/1flu78BhJdYQ9NzkNL1qmwKsqWPcSXrQj/view?usp=sharing)
 
 ### 2. Implementar as sessões disponíveis para um determinado filme
 - [X] Concluído Total
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
-**GIF, screenshot ou video da funcionalidade aqui**
+[Explicação](https://drive.google.com/file/d/1flu78BhJdYQ9NzkNL1qmwKsqWPcSXrQj/view?usp=sharing)
 
 ## Desafios bônus
 
@@ -111,19 +111,19 @@ Conteúdo do email: `link do projeto no github`
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
-**GIF, screenshot ou video da funcionalidade aqui**
+[Explicação](https://drive.google.com/file/d/1flu78BhJdYQ9NzkNL1qmwKsqWPcSXrQj/view?usp=sharing)
 
 ### 2. Adicionar o pacote Lint-staged
 - [X] Concluído Total
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
-**GIF, screenshot ou video da funcionalidade aqui**
+[Explicação](https://drive.google.com/file/d/1flu78BhJdYQ9NzkNL1qmwKsqWPcSXrQj/view?usp=sharing)
 
 ### 3. Adicionar suporte para mais cidades
 - [X] Concluído Total
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
-**GIF, screenshot ou video da funcionalidade aqui**
+[Explicação](https://drive.google.com/file/d/1flu78BhJdYQ9NzkNL1qmwKsqWPcSXrQj/view?usp=sharing)
 
