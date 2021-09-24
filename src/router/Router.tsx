@@ -7,17 +7,25 @@ import { NavigationContainer } from '@react-navigation/native';
 import Home from '../screens/Home';
 import MovieDetail from '../screens/MovieDetail';
 import { colors } from '../style';
-import { Movie } from '../service';
+import { City, Movie } from '../service';
+import { CitySelection } from '../screens/CitySelection';
 
 const HomeStack = createNativeStackNavigator();
 
 export type RootStackParamList = {
-  Home: undefined;
-  MovieDetail: { movie: Movie };
+  CitySelection: undefined;
+  Home: { city: City };
+  MovieDetail: { movie: Movie; city: City };
 };
 
 const homeOptions: NativeStackNavigationOptions = {
   title: 'CineFortaleza',
+  headerTintColor: colors.white,
+  headerStyle: { backgroundColor: colors.headerBackgroundColor },
+};
+
+const citySelectionOptions: NativeStackNavigationOptions = {
+  title: 'Seleção de Cidade',
   headerTintColor: colors.white,
   headerStyle: { backgroundColor: colors.headerBackgroundColor },
 };
@@ -33,6 +41,11 @@ const movieDetailOptions: NativeStackNavigationOptions = {
 export default () => (
   <NavigationContainer>
     <HomeStack.Navigator>
+      <HomeStack.Screen
+        name="CitySelection"
+        component={CitySelection}
+        options={citySelectionOptions}
+      />
       <HomeStack.Screen name="Home" component={Home} options={homeOptions} />
       <HomeStack.Screen
         name="MovieDetail"

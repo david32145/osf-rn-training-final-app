@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StatusBar, StyleSheet, View } from 'react-native';
+import { QueryClient, QueryClientProvider } from 'react-query';
 import Router from './src/router/Router';
 import { colors } from './src/style';
 
@@ -9,12 +10,22 @@ const styles = StyleSheet.create({
     backgroundColor: colors.bodyBackgroundColor,
   },
 });
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      cacheTime: 1000 * 10,
+    },
+  },
+});
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Router />
-    </View>
+    <QueryClientProvider client={queryClient}>
+      <View style={styles.container}>
+        <StatusBar barStyle="light-content" backgroundColor="#152238" />
+        <Router />
+      </View>
+    </QueryClientProvider>
   );
 };
 

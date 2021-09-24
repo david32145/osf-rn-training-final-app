@@ -91,14 +91,14 @@ Conteúdo do email: `link do projeto no github`
 ## Desafios médios
 
 ### 1. Implementar uma barra de pesquisa para filtrar os filmes
-- [ ] Concluído Total
+- [X] Concluído Total
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
 **GIF, screenshot ou video da funcionalidade aqui**
 
 ### 2. Implementar as sessões disponíveis para um determinado filme
-- [ ] Concluído Total
+- [X] Concluído Total
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
@@ -107,7 +107,7 @@ Conteúdo do email: `link do projeto no github`
 ## Desafios bônus
 
 ### 1. Implementar um sistema de cache de requisições
-- [ ] Concluído Total
+- [X] Concluído Total
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
@@ -121,7 +121,7 @@ Conteúdo do email: `link do projeto no github`
 **GIF, screenshot ou video da funcionalidade aqui**
 
 ### 3. Adicionar suporte para mais cidades
-- [ ] Concluído Total
+- [X] Concluído Total
 - [ ] Concluído Parcial
 - [ ] Não Concluído
 
